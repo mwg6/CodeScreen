@@ -12,6 +12,7 @@ public class MaxGoodman {
     static int mR;
     static int mC;
     static int wordLength;
+    static long count;
 
 
     public MaxGoodman(char[][] grid, int wordLength){

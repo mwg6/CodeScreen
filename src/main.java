@@ -5,7 +5,7 @@ public class main {
     public static void main(String args[]){
 
         char[][] a = new char[5][];
-        a[0] = new char[]{'A', 'B', 'C', ' ', 'D'};
+        a[0] = new char[]{'A', 'B', 'C', ' ', 'E'};
         a[1] = new char[]{' ', 'G', 'H', 'I', 'J'};
         a[2] = new char[]{'K', 'L', 'M', 'N', 'O'};
         a[3] = new char[]{'P', 'Q', 'R', 'S', 'T'};
