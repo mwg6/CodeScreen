@@ -12,7 +12,6 @@ public class MaxGoodman {
     static int mR;
     static int mC;
     static int wordLength;
-    static long ans;
 
 
     public MaxGoodman(char[][] grid, int wordLength){
@@ -72,8 +71,6 @@ public class MaxGoodman {
     }
 
     public static long SolveMatrix(){
-        ans=0L;
-
         for(int i = 0; i<mR; i++){
             for(int j = 0; j<mC; j++){
                 solveGrid(i,j,0,"");
